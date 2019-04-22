@@ -111,13 +111,15 @@ public class App {
 
                             System.out.print("Número de socio: ");
                             numSocio = sc.nextLine();
-
+                            
+                            //aplicando o Abstract Factory para socios.
                             sist.cadastraCliente(new ConcreteSocioFactory().criaCliente(nome, cpf, idade, genero, numSocio));
 
                             System.out.println("~~~Cadastro finalizado~~~");
 
                         } else if (isSocio.equalsIgnoreCase("não") || isSocio.equalsIgnoreCase("nao")) {
 
+                            //aplicando o Abstract Factory para clientes.
                             sist.cadastraCliente(new ConcreteClienteFactory().criaCliente(nome, cpf, idade, genero, numSocio));
 
                             System.out.println("~~~Cadastro finalizado~~~");
