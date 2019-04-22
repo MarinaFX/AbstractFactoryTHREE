@@ -1,0 +1,2 @@
+Marina;115.935.225-35;22;FEMININO;Cliente
+Aurora;131.456.789-45;22;FEMININO;Socio
